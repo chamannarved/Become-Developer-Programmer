@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6f6f6;
+    font-family: 'Mulish', sans-serif;
+    height: 100vh;
+}
+
+header{
+    padding: 10px 20px;
+    display:flex;
+    align-content: center;
+    justify-content:space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(106, 106, 106, 0.25);
+}
+
+.logo{
+    width:170px;
+    height: auto;
+    margin: auto 0;
+}
+
+.header-right{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.theme-icon{
+    margin-right: 8px;
+}
+.cta-btn{
+    text-decoration: none;
+    background-color: #35D475;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: auto;
+}
+
+main{
+    padding: 10px 20px;
+}
+.hero-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+}
+
+.hello{
+    font-weight: 100;
+    font-size: 13px;
+}
+.hey{
+    margin-top: 7px;
+    font-size: 30px;
+}
+.i-m{
+    font-weight: 100;
+}
+.chaman{
+    color: #269BD1;
+    font-weight:400;
+}
+.narved{
+    color:#35D475;
+    font-weight: 400;
+}
+.sub-heading{
+    font-weight: 100;
+    font-size: 12px;
+    color:#848484;
+}
+.about-text{
+    margin-top: 12px;
+    font-size: 12px;
+}
+footer{
+    margin-top: 15px;
+}
+.social-icons{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px 0px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
