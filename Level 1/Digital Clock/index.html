@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+<body>
+    <h1>Digital Clock</h1>
+    <div id="clock"></div>
+    <script>
+        let clock = () => {
+            let time = new Date();
+            let hrs = time.getHours();
+            let mins = time.getMinutes();
+            let secs = time.getSeconds();
+
+            // set time period
+            let period = "AM";
+            if (hrs == 0) hrs = 12;
+            if (hrs > 12){
+                hrs = hrs - 12;
+                period = "PM";
+            }
+
+            // convert 24 hrs to 12 hrs time
+            hrs = hrs < 10? `0${hrs}` : hrs;
+            mins = mins < 10? `0${mins}` : mins;
+            secs = secs < 10? `0${secs}` : secs;
+
+            let current_time = `${hrs} : ${mins} : ${secs} : ${period}`;
+
+            setInterval(clock, 1000);
+            document.getElementById("clock").innerHTML = current_time;
+        }
+
+        clock();
+    </script>
+</body>
+</html>
