@@ -26,9 +26,23 @@
         <option value="Income">Income</option>
         <option value="Expence">Expence</option>
     </select>
-    <input type="button" value="Add">
+    <input id="add-button" type="button" value="Add" onclick="addRecode()">
     <div class="recodes">
         
     </div>
 </body>
+<script>
+    let addRecode = () =>{
+        let amount = document.getElementById("amount");
+        let category = document.getElementById("category");
+        let expenseType = document.getElementById("expense-type");
+
+        window.localStorage.setItem("Amount: ", amount.value);
+
+    }
+
+    
+
+</script>
+
 </html>
