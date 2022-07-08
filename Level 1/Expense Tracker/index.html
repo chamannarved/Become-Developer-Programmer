@@ -32,10 +32,16 @@
     </div>
 </body>
 <script>
-    let addRecode = () =>{
-        let amount = document.getElementById("amount");
-        let category = document.getElementById("category");
-        let expenseType = document.getElementById("expense-type");
+    let addRecorde = () =>{
+        const amount = document.getElementById("amount");
+        const category = document.getElementById("category");
+        const expenseType = document.getElementById("expense-type");
+
+        const history = [];
+
+        function addRecode(data) {
+            
+        }
 
         window.localStorage.setItem("Amount: ", amount.value);
 
