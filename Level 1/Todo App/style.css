@@ -18,6 +18,7 @@ input{
 button{
     padding: .5rem 3rem;
     font-size: 14px;
+    margin-top: 10px;
 }
 
 ul{
