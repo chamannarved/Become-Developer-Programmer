@@ -7,3 +7,25 @@ body {
     text-align: center;
 }
 
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin: 0 20px 0 20px;
+}
+
+#transactions {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 10px 20px 40px 20px;
+    padding: 1.5rem;
+    background-color: #f0f0f0;
+    box-shadow: 3px 2px 5px rgba(53, 53, 53, 0.26);
+}
+
