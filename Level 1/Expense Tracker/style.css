@@ -38,19 +38,13 @@ form {
     display: block;
 }
 
-.text > input {
+input {
     width: 90%;
     height: 30px;
     margin-top: 10px;
 }
 
 .amount {
-    margin-top: 10px;
-}
-
-.amount > input {
-    width: 90%;
-    height: 30px;
     margin-top: 10px;
 }
 
