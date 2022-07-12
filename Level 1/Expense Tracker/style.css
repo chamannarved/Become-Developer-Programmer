@@ -29,3 +29,36 @@ h2 {
     box-shadow: 3px 2px 5px rgba(53, 53, 53, 0.26);
 }
 
+form {
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+}
+
+.text > label {
+    display: block;
+}
+
+.text > input {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.amount {
+    margin-top: 10px;
+}
+
+.amount > input {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.amount > label {
+    display: block;
+}
+
+form > button {
+    margin-top: 10px;
+    padding: .5rem;
+}
