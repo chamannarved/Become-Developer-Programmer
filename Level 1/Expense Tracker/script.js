@@ -16,7 +16,7 @@ function addTransationToDOM(transaction) {
     const sign = transaction.amount < 0 ? "-" : "+";
     const liItem = document.createElement("li");
 
-    liItem.innerHTML = `${transaction.text} ${sign}${transaction.amount}`;
+    liItem.innerHTML = `${transaction.text} ${sign}${Math.abs(transaction.amount)}`;
     list.appendChild(liItem);
 }
 
