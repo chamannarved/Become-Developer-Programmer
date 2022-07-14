@@ -34,6 +34,10 @@ form {
     margin: 0px 20px 0px 20px;
 }
 
+.add-new {
+    margin-bottom: 10px;
+}
+
 .text > label {
     display: block;
 }
