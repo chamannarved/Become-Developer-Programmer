@@ -16,7 +16,10 @@ function addTransationToDOM(transaction) {
     const sign = transaction.amount < 0 ? "-" : "+";
     const liItem = document.createElement("li");
 
-    liItem.innerHTML = `${transaction.text} ${sign}${Math.abs(transaction.amount)}`;
+    // Add class based on value
+    liItem.classList.add(transaction.amount < 0 ? "minus" : "plus");
+
+    liItem.innerHTML = `${transaction.text} <span>${sign}${Math.abs(transaction.amount)}</span>`;
     list.appendChild(liItem);
 }
 
