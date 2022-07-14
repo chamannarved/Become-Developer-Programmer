@@ -38,6 +38,22 @@ form {
     margin-bottom: 10px;
 }
 
+#transactions li {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#transactions li.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+#transactions li.minus {
+    border-right: 5px solid #cc4e2e;
+}
+
 .text > label {
     display: block;
 }
